@@ -1,0 +1,28 @@
+#calculator {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  border: solid 8px;
+}
+
+#in_between {
+  padding-top: 16px;
+}
+#input {
+  color: aliceblue;
+  background-color: blue;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.rows {
+  padding: 8px;
+  display: flex;
+  gap: 16px;
+}
+#number_btns {
+  font-size: 32px;
+  background-color: aqua;
+}
